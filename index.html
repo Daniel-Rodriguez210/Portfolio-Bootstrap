@@ -1,47 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Daniel Rodriguz Portfolio</title>
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
-    <title>Daniel Rodriguez Portfolio</title>
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Daniel Rodriguez</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a id="name" class="navbar-brand" href="contact.html">Daniel Rodriguez</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav ml-auto">
-            <a class="nav-link" href="#">Contact</a>
-            <a class="nav-link" href="#">Portfolio</a>
-            <a class="nav-link" href="#">About</a>
-          </div>
+            <div class="navbar-nav ml-auto">
+                <a class="nav-link" href="contact.html">Contact</a>
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+                <a class="nav-link" href="index.html">About</a>
+            </div>
         </div>
     </nav>
-
+    <!--Main Container-->
     <div class="container">
-       <div class="row">
-         <div class="col-md-12">
-           <h3>About Me</h3>
-          </div>
-       </div>
-       <div class="row">
-         <div class="col-md-3">
-            <img class="img-thumbnail" src="/assets/self.jpg" alt="Self">
-         </div>  
-         <div class="col-md-9">
-           <p>Daniel Rodriguez is currently enrolled in the University of Texas Web Developer Boot Camp. His interest in application design and development lead him to a challenging and reputable institution. He is driven by his passion in customer service, and was recognized at his previous employer for consistent high standings in customer satisfaction. </p>
-         </div>
-       </div>
-       <br>
-       <div class="row">
-        <div class="col-md-12">
-          <p>Daniel sees himself as a lifetime learner. Ambitiously selecting a demanding coding course with a high paced curriculum. He believes he will start with a solid foundation as he begins the next chapter in his professional goals. Daniel's prior experience in the high stress and demanding field of catastrophe claims adjusting will ease his transition in the challenging tech industry. </p>
+        <div class="row">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header">About Me</div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="assets/self.jpg" alt="Self Portrait" class="img-fluid img-thumbnail">
+                        </div>
+                        <div class="col-md-8">
+                            <p>Daniel Rodriguez is currently enrolled in the University of Texas Web Developer Boot
+                                Camp. His interest
+                                in application design and development lead him to a challenging and reputable
+                                institution. He is driven
+                                by his passion in customer service, and was recognized at his previous employer for
+                                consistent high
+                                standings in customer satisfaction.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p>Daniel sees himself as a lifetime learner. Ambitiously selecting a demanding coding
+                                course with a high paced curriculum. He believes he will start with a solid foundation
+                                as he begins the next chapter in his professional goals. Daniel's prior experience in
+                                the high stress and demanding field of catastrophe claims adjusting will ease his
+                                transition in the challenging tech industry.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <!--I left empty on purpose-->
+            </div>
         </div>
-      </div> 
-      
+
+    </div>
+    </div>
+
 </body>
+
 </html>

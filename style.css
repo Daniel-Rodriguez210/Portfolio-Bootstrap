@@ -1,4 +1,48 @@
+body {
+    background-image: url(assets/BG1.jpeg);
+}
+
+.container {
+    margin-top: 25px;
+}
+
+#name {
+    background-color: teal;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    
+}
+
+.card-header {
+    margin-left: -5px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: teal;
+    font-size: 40px;
+}
+
+.forms {
+    margin-left: 25px;
+}
 
 
+#contact {
+    font-family: Times New Roman;
+    font-weight: bold;
+    color: gray;
+    background-color: white;
+    font-size: 50px;
+    margin-top: 75px;
+}
+
+.form-control {
+    width: 70%;
+}
+
+.btn {
+    background-color: teal;
+    border-radius: 2px;
+}
 
 

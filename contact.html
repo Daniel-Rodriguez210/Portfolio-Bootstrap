@@ -1,48 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Daniel Rodriguz Portfolio</title>
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
-    <title>Daniel Rodriguez Portfolio</title>
+    
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Daniel Rodriguez</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a id="name" class="navbar-brand" href="contact.html">Daniel Rodriguez</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav ml-auto">
-            <a class="nav-link" href="#">Contact</a>
-            <a class="nav-link" href="#">Portfolio</a>
-            <a class="nav-link" href="#">About</a>
-          </div>
+            <div class="navbar-nav ml-auto">
+                <a class="nav-link" href="contact.html">Contact</a>
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+                <a class="nav-link" href="index.html">About</a>
+            </div>
         </div>
     </nav>
 
+    </nav>
+    <!--Main Container-->
     <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-              <h3>Contact</h3>
-             </div>
-          </div>
-        <form>
-            <div class="form-group>
-              <label for="formGroupExampleInput">Name</label>
-              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Your Name">
+        <div class="row"></div>
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header">Contact</div>
+
+                <form class="forms">
+
+                    <div class="form-group">
+                        <label for="exampleInputName">Name</label>
+                        <input type="name" class="form-control" id="exampleName" placeholder="Name"> 
+                        
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Enter email">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exampleInputName">Message</label>
+                        <br>
+                        <textarea name="name" class="form-control" placeholder="Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
             </div>
-            <div class="form-group">
-              <label for="formGroupExampleInput2">Email</label>
-              <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Email">
-            </div>
-            <div class="form-group">
-                <label for="formGroupExampleInput2">Message</label>
-                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Message">
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
+        </div>
+
+
     </div>
+
+
+
 </body>
+
 </html>
