@@ -10,6 +10,6 @@ What I learned:
 
 The personal portfolio is very important and I will continue to build and expand this repo!
 
-<img src="ScreenShot2020-10-13at5.29.11PM.png" alt="Portfolio" width="100" height="100">
-<img src="ScreenShot2020-10-13at5.29.11PM.png" alt="Portfolio" width="100" height="100">
-<img src="ScreenShot2020-10-13at5.29.11PM.png" alt="Portfolio" width="100" height="100">
+<img src="SS1.png">
+<img src="SS2.png">
+<img src="SS3.png">
