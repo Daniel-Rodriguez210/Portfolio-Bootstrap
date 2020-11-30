@@ -45,4 +45,7 @@ body {
     border-radius: 2px;
 }
 
-
+#photos {
+    height: 200px;
+    width: 200px;
+}
